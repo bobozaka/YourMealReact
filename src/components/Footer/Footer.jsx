@@ -7,7 +7,7 @@ import { Container } from '../Container/Container';
 export const Footer = () => {
   return (
     <>
-      <footer classNameName={styles.footer}>
+      <footer className={styles.footer}>
         <Container>
           <div className={styles.footer__content}>
             <img className={styles.footer__logo} src={Logo} alt="Логотип YourMeal" />
@@ -67,11 +67,9 @@ export const Footer = () => {
 
             <div className={styles.footer__development}>
               <p>© YouMeal, 2022</p>
+
               <p>
-                Design: <a href="#">Anastasia Ilina</a>
-              </p>
-              <p>
-                Developer: <a href="mailto:maksim.leskin@methed.ru">Maksim Leskin</a>
+                Developer: <a href="mailto:Shatovkk@gmail.com">Kosty Shatov</a>
               </p>
             </div>
           </div>
